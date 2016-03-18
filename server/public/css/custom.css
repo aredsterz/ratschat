@@ -1,0 +1,39 @@
+/* style.css */
+
+/*link*/
+.lnk{
+	cursor:pointer;
+}
+.lnk:hover{
+	color:red;
+	font-weight:bold;
+}
+
+/* fontsize*/
+.fs12{
+   font-size: 12px;
+}
+
+/*width percent*/
+.width95per{width:95%;}
+.width70per{width:70%;}
+.width60per{width:60%;}
+
+/* input*/
+.transp{
+	background-color:transparent;
+	border:none;
+}
+.cur{cursor:pointer;}
+
+/* text*/
+.text_c{text-align:center;}
+.text_r{text-align:right;}
+.text_l{text-align:left;}
+
+/*table*/
+.text_c th{text-align:center;}
+.text_c td{text-align:center;}
+
+span[aria-hidden="true"]{display:none;}
+div.has-error span[aria-hidden="true"]{display:block;}

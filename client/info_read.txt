@@ -1,0 +1,13 @@
+=>add ionic scurity profile ~: ionic security profiles add "Ratschat Profile"
+
+//generate keystroke for android
+keytool -genkey -v -keystore ratchat-release-key.keystore -alias Ratschat -keyalg RSA -keysize 2048 -validity 10000
+//activate keystroke on ionic
+ionic security credentials android --profile "Ratschat Profile" -s ratchat-release-key.keystore -p ared4039 -k Ratschat -w ared4039
+//set google gcm_key for cloud mesg
+~:ionic config set gcm_key AIzaSyBCHNZ1-PJwXEZM0CXkmVBKK7WutOu0OWc
+
+
+=>Run Ionic server
+	~ ionic serve
+

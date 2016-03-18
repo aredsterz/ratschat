@@ -1,0 +1,79 @@
+<ion-view class="login-bg">
+    <ion-content>
+        <div class="login-logo light" ng-click="resize();">
+            <span class="bold positive"></span>
+        </div>
+		
+        <div class="login-tab">
+            <div class="button-bar">
+                <button  class="button button-block button-calm button-outline" ng-class="{'underline':tab=='signin'}" ng-click="tabchange('signin',1)">Sign In</button >
+                <button  class="button button-block button-calm button-outline" ng-class="{'underline':tab=='signup'}" ng-click="tabchange('signup',2)">Sign Up</button >
+            </div>
+            <div class="login" ng-show="tab=='signin'">
+                <div class="list">
+                    <label class="item item-input item-floating-label" ng-class="allvalidation[0].validation">
+                        <span class="input-label">Username</span>
+                        <i class="icon ln-user"></i>
+                        <input type="text" placeholder="Username" ng-model="signin.uname">
+                    </label>
+                    <label class="item item-input item-floating-label" ng-class="allvalidation[1].validation">
+                        <span class="input-label">Password</span>
+                        <i class="icon ln-lock"></i>
+                        <input type="password" placeholder="Password" ng-model="signin.pwd">
+                    </label>
+                </div>
+				
+                <div class="login-btn">
+                    <button class="button button-block button-positive" ng-click="signinsubmit(signin);">
+                        Sign In
+                    </button>
+                    <p class="light" ng-click="forgotpass()">Forgot password?</p>
+                </div>
+				
+            </div>
+		
+            <div class="login" ng-show="tab=='signup'">
+                <div class="list">
+                    <label class="item item-input item-floating-label" ng-class="allvalidation[0].validation">
+                        <span class="input-label">Username</span>
+                        <i class="icon ln-user"></i>
+                        <input type="text" placeholder="Username" ng-model="signup.username">
+                    </label>					 
+                    <label class="item item-input item-floating-label" ng-class="allvalidation[2].validation">
+                        <span class="input-label">Email</span><i class="icon ln-envelope"></i>
+                        <input type="email" placeholder="Email" ng-model="signup.email">
+                    </label>
+                    <label class="item item-input item-floating-label" ng-class="allvalidation[3].validation">
+                        <span class="input-label">Password</span>
+                        <i class="icon ln-lock"></i>
+                        <input type="password" placeholder="Password" ng-model="signup.pwd">
+                    </label>
+					<label class="item item-input item-select">
+                        <div class="input-label "><i class="icon ion-ios-rose-outline location-icon"></i> Gender</div>
+						<select class="country-list" 
+						ng-model="signup.gender" 
+						ng-options="genders.gender_nm for genders in genders track by genders.gender_cd" 
+						ng-change="selectGender()"
+						>
+						   <option value=""> Select Gender </option>
+						</select>
+                      </label>
+                    <label class="item item-input item-select">
+                        <div class="input-label "><i class="icon ion-ios-location-outline location-icon"></i>Country</div>
+                        <select  
+						class="country-list" 
+						ng-options="option.country_name for option in countries track by option.country_code" 
+						ng-model="signup.country" 
+						ng-change="selectCountry()"
+						><option value=""> Select Country </option></select>
+                      </label>
+                </div>
+				
+                <div class="login-btn footer">
+                    <button class="button button-block button-positive" ng-click="signupsubmit(signup);">Sign up</button>
+                </div>
+            </div>
+			
+        </div>
+    </ion-content>
+</ion-view>

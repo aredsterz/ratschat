@@ -1,0 +1,29 @@
+
+<ion-view view-title="Find Friends">
+  <ion-content>
+  <div class="clear-header"></div>
+	<div class="list">
+		<div class="item item-input-inset">
+			<label class="item-input-wrapper">
+			<i class="icon ion-magnet  placeholder-icon"></i>&nbsp;&nbsp;&nbsp;<input type="text" ng-change="userlistsch()" placeholder="RatsChat ID here.." ng-model="users.findusername">
+			</label>
+			<!--
+			<button class="button button-small" ng-click="userlistsch();"><i class="icon ion-ios-paw"></i></button>
+			-->
+		</div>
+		<div class="item item-divider"><i class="icon ion-person-stalker"></i>&nbsp;&nbsp;&nbsp;People inside</div>
+
+		<div ng-repeat="userlist in ratslist" >
+			<a class="item item-avatar" href="#/tab/chats/{{userlist.uid}}">
+				<img ng-if="!userlist.image" src="../img/No_Image.png">
+				<img ng-if="userlist.image != null" ng-src="{{userlist.imagepath}}{{ userlist.image }}">
+				<h2>{{ userlist.username }}</h2>
+				<p>{{userlist.favquote}}</p>
+			</a>
+		</div>
+		<a class="item" ng-if="nodata">{{nodata}}</a>
+
+	</div>
+  </ion-content>
+</ion-view>
+

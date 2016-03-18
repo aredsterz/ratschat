@@ -1,0 +1,706 @@
+++++++++++++++++Start Error:2016/03/06 13:22:14+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				 `full_name`
+				, `ic_number`
+				, `phone_number`
+				, `license_number`
+				, `plate_number`
+				, `description`
+				, `b_start_date`
+				, `b_end_date`
+				, `b_image_patha`
+				, `status`
+			) VALUES (
+				'asasas asa'
+				,'asa'
+				,'asa'
+				,'asa'
+				,'asa'
+				,'asa'
+				,'30-03-2016'
+				,'28-03-2016'
+				,''
+				,'1'
+			)
+			
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:58
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('asasas', 'asa', 'asa', 'asa', 'asa', 'asa', 'asa', 'asa', '30-03-2016', '28-03-2016', NULL)
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+++++++++++++++++End Log :2016/03/06 13:22:14+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:29:25+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				 `full_name`
+				, `ic_number`
+				, `phone_number`
+				, `license_number`
+				, `plate_number`
+				, `description`
+				, `b_start_date`
+				, `b_end_date`
+				, `b_image_patha`
+				, `status`
+			) VALUES (
+				'asdsadasd asdsad'
+				,'asdsad'
+				,'asda'
+				,'asdsa'
+				,'asdas'
+				,'asdas'
+				,'23-03-2016'
+				,'14-03-2016'
+				,'1457242165.jpg'
+				,'1'
+			)
+			
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:58
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('asdsadasd', 'asdsad', 'asdsad', 'asda', 'asdsa', 'asdas', 'adasd', 'asdas', '23-03-2016', '14-03-2016', '1457242165.jpg')
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:29:25+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:30:51+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				 `full_name`
+				, `ic_number`
+				, `phone_number`
+				, `license_number`
+				, `plate_number`
+				, `description`
+				, `b_start_date`
+				, `b_end_date`
+				, `b_image_path`
+				, `status`
+			) VALUES (
+				'asdsadasd asdsad'
+				,'asdsad'
+				,'asda'
+				,'asdsa'
+				,'asdas'
+				,'asdas'
+				,'23-03-2016'
+				,'14-03-2016'
+				,'1457242251.jpg'
+				,'1'
+			)
+			
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:58
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('asdsadasd', 'asdsad', 'asdsad', 'asda', 'asdsa', 'asdas', 'adasd', 'asdas', '23-03-2016', '14-03-2016', '1457242251.jpg')
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:30:51+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:33:24+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				 `full_name`
+				, `ic_number`
+				, `phone_number`
+				, `license_number`
+				, `plate_number`
+				, `description`
+				, `b_start_date`
+				, `b_end_date`
+				, `b_image_path`
+				, `status`
+			) VALUES (
+				'asdsadasd asdsad'
+				,'asdsad'
+				,'asda'
+				,'asdsa'
+				,'asdas'
+				,'asdas'
+				,'23-03-2016'
+				,'14-03-2016'
+				,''
+				,'1'
+			)
+			
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:58
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('asdsadasd', 'asdsad', 'asdsad', 'asda', 'asdsa', 'asdas', 'adasd', 'asdas', '23-03-2016', '14-03-2016', NULL)
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:33:24+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:33:50+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				 `full_name`
+				, `ic_number`
+				, `phone_number`
+				, `license_number`
+				, `plate_number`
+				, `description`
+				, `b_start_date`
+				, `b_end_date`
+				, `b_image_path`
+				, `status`
+			) VALUES (
+				'asdsadasd asdsad'
+				,'asdsad'
+				,'asda'
+				,'asdsa'
+				,'asdas'
+				,'asdas'
+				,'23-03-2016'
+				,'14-03-2016'
+				,''
+				,'1'
+			)
+			
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:58
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('asdsadasd', 'asdsad', 'asdsad', 'asda', 'asdsa', 'asdas', 'adasd', 'asdas', '23-03-2016', '14-03-2016', NULL)
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:33:50+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:34:16+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				 `full_name`
+				, `ic_number`
+				, `phone_number`
+				, `license_number`
+				, `plate_number`
+				, `description`
+				, `b_start_date`
+				, `b_end_date`
+				, `b_image_path`
+				, `status`
+			) VALUES (
+				'asdsadasd asdsad'
+				,'asdsad'
+				,'asda'
+				,'asdsa'
+				,'asdas'
+				,'asdas'
+				,'23-03-2016'
+				,'14-03-2016'
+				,''
+				,'1'
+			)
+			
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:58
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('asdsadasd', 'asdsad', 'asdsad', 'asda', 'asdsa', 'asdas', 'adasd', 'asdas', '23-03-2016', '14-03-2016', NULL)
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:34:16+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:36:25+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				`bro_id`
+				, `u_email`
+				, `u_first_name`
+				, `u_last_name`
+				, `u_password`
+				, `u_status`
+			) VALUES (
+				'12'
+				,'adasd'
+				,'asdsadasd'
+				,'asdsad'
+				,'asdsad'
+				,'2'
+			)
+			
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:85
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('asdsadasd', 'asdsad', 'asdsad', 'asda', 'asdsa', 'asdas', 'adasd', 'asdas', '23-03-2016', '14-03-2016', NULL)
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:36:25+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:37:42+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				`bro_id`
+				, `u_email`
+				, `u_first_name`
+				, `u_last_name`
+				, `u_password`
+				, `u_status`
+			) VALUES (
+				'13'
+				,'adasd'
+				,'asdsadasd'
+				,'asdsad'
+				,'asdsad'
+				,'2'
+			)
+			
+SQL Error -> 
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:85
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('asdsadasd', 'asdsad', 'asdsad', 'asda', 'asdsa', 'asdas', 'adasd', 'asdas', '23-03-2016', '14-03-2016', NULL)
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:37:43+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:38:30+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				`bro_id`
+				, `u_email`
+				, `u_first_name`
+				, `u_last_name`
+				, `u_password`
+				, `u_status`
+			) VALUES (
+				'14'
+				,'adasd'
+				,'asdsadasd'
+				,'asdsad'
+				,'asdsad'
+				,'2'
+			)
+			
+SQL=>
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:87
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('asdsadasd', 'asdsad', 'asdsad', 'asda', 'asdsa', 'asdas', 'adasd', 'asdas', '23-03-2016', '14-03-2016', NULL)
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:38:30+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:38:48+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				`bro_id`
+				, `u_email`
+				, `u_first_name`
+				, `u_last_name`
+				, `u_password`
+				, `u_status`
+			) VALUES (
+				'15'
+				,'adasd'
+				,'asdsadasd'
+				,'asdsad'
+				,'asdsad'
+				,'2'
+			)
+			
+SQL=>
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:87
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('asdsadasd', 'asdsad', 'asdsad', 'asda', 'asdsa', 'asdas', 'adasd', 'asdas', '23-03-2016', '14-03-2016', NULL)
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:38:48+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:42:11+++++++++++++++++
+SQL=>
+			INSERT INTO `user`
+			(
+				`bro_id`
+				, `u_email`
+				, `u_first_name`
+				, `u_last_name`
+				, `u_password`
+				, `u_status`
+				, `u_last_login_date`
+			) VALUES (
+				'16'
+				,'adasd'
+				,'asdsadasd'
+				,'asdsad'
+				,'asdsad'
+				,'2'
+				,null
+			)
+			
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:86
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('asdsadasd', 'asdsad', 'asdsad', 'asda', 'asdsa', 'asdas', 'adasd', 'asdas', '23-03-2016', '14-03-2016', NULL)
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:42:11+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:43:36+++++++++++++++++
+SQL=>
+			INSERT INTO `user`
+			(
+				`bro_id`
+				, `u_email`
+				, `u_first_name`
+				, `u_last_name`
+				, `u_password`
+				, `u_status`
+				, `u_last_login_date`
+			) VALUES (
+				'17'
+				,'adasd'
+				,'asdsadasd'
+				,'asdsad'
+				,'asdsad'
+				,'2'
+				, null
+			)
+			
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:88
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('asdsadasd', 'asdsad', 'asdsad', 'asda', 'asdsa', 'asdas', 'adasd', 'asdas', '23-03-2016', '14-03-2016', NULL)
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:43:36+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:48:22+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				 `full_name`
+				, `ic_number`
+				, `phone_number`
+				, `license_number`
+				, `plate_number`
+				, `description`
+				, `b_start_date`
+				, `b_end_date`
+				, `b_image_path`
+				, `status`
+			) VALUES (
+				'adadasd fvfdvdv'
+				,'2343245324523'
+				,'cvcvc'
+				,'dfgbfdg'
+				,'fdgfd'
+				,'dfgfd'
+				,'29-03-2016'
+				,'21-03-2016'
+				,''
+				,'1'
+			);
+			
+SQL=>
+			INSERT INTO `user`
+			(
+				`bro_id`
+				, `u_email`
+				, `u_first_name`
+				, `u_last_name`
+				, `u_password`
+				, `u_statuss`
+				, `u_last_login_date`
+			) VALUES (
+				'4'
+				,'fdgfd'
+				,'adadasd'
+				,'fvfdvdv'
+				,'2343245324523'
+				,'2'
+				, null
+			);
+			
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:91
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('adadasd', 'fvfdvdv', '2343245324523', 'cvcvc', 'dfgbfdg', 'fdgfd', 'fdgfd', 'dfgfd', '29-03-2016', '21-03-2016', NULL)
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:48:22+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:49:37+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				 `full_name`
+				, `ic_number`
+				, `phone_number`
+				, `license_number`
+				, `plate_number`
+				, `description`
+				, `b_start_date`
+				, `b_end_date`
+				, `b_image_path`
+				, `status`
+			) VALUES (
+				'adadasd fvfdvdv'
+				,'2343245324523'
+				,'cvcvc'
+				,'dfgbfdg'
+				,'fdgfd'
+				,'dfgfd'
+				,'29-03-2016'
+				,'21-03-2016'
+				,''
+				,'1'
+			);
+			
+SQL=>
+			INSERT INTO `user`
+			(
+				`bro_id`
+				, `u_email`
+				, `u_first_name`
+				, `u_last_name`
+				, `u_password`
+				, `u_statuss`
+				, `u_last_login_date`
+			) VALUES (
+				'4'
+				,'fdgfd'
+				,'adadasd'
+				,'fvfdvdv'
+				,'2343245324523'
+				,'2'
+				, null
+			);
+			
+SQL=>
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:92
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('adadasd', 'fvfdvdv', '2343245324523', 'cvcvc', 'dfgbfdg', 'fdgfd', 'fdgfd', 'dfgfd', '29-03-2016', '21-03-2016', NULL)
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:49:37+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:50:13+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				 `full_name`
+				, `ic_number`
+				, `phone_number`
+				, `license_number`
+				, `plate_number`
+				, `description`
+				, `b_start_date`
+				, `b_end_date`
+				, `b_image_path`
+				, `status`
+			) VALUES (
+				'adadasd fvfdvdv'
+				,'2343245324523'
+				,'cvcvc'
+				,'dfgbfdg'
+				,'fdgfd'
+				,'dfgfd'
+				,'29-03-2016'
+				,'21-03-2016'
+				,''
+				,'1'
+			);
+			
+SQL=>
+			INSERT INTO `user`
+			(
+				`bro_id`
+				, `u_email`
+				, `u_first_name`
+				, `u_last_name`
+				, `u_password`
+				, `u_statuss`
+				, `u_last_login_date`
+			) VALUES (
+				'4'
+				,'fdgfd'
+				,'adadasd'
+				,'fvfdvdv'
+				,'2343245324523'
+				,'2'
+				, null
+			);
+			
+SQL=>1
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:92
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('adadasd', 'fvfdvdv', '2343245324523', 'cvcvc', 'dfgbfdg', 'fdgfd', 'fdgfd', 'dfgfd', '29-03-2016', '21-03-2016', NULL)
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:50:13+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:51:30+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				 `full_name`
+				, `ic_number`
+				, `phone_number`
+				, `license_number`
+				, `plate_number`
+				, `description`
+				, `b_start_date`
+				, `b_end_date`
+				, `b_image_path`
+				, `status`
+			) VALUES (
+				'name1 name2'
+				,'54652441231321'
+				,'2243434'
+				,'a12213'
+				,'ddwdqd'
+				,'sasas'
+				,'21-03-2016'
+				,'31-03-2016'
+				,'1457243490.jpg'
+				,'1'
+			);
+			
+SQL=>
+			INSERT INTO `user`
+			(
+				`bro_id`
+				, `u_email`
+				, `u_first_name`
+				, `u_last_name`
+				, `u_password`
+				, `u_status`
+				, `u_last_login_date`
+			) VALUES (
+				'4'
+				,'adsad@mail.com'
+				,'name1'
+				,'name2'
+				,'54652441231321'
+				,'2'
+				, null
+			);
+			
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:92
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('name1', 'name2', '54652441231321', '2243434', 'a12213', 'ddwdqd', 'adsad@mail.com', 'sasas', '21-03-2016', '31-03-2016', '1457243490.jpg')
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:51:30+++++++++++++++++
+
+++++++++++++++++Start Error:2016/03/06 13:55:24+++++++++++++++++
+SQL=>
+			INSERT INTO `bro`
+			(
+				 `full_name`
+				, `ic_number`
+				, `phone_number`
+				, `license_number`
+				, `plate_number`
+				, `description`
+				, `b_start_date`
+				, `b_end_date`
+				, `b_image_path`
+				, `status`
+			) VALUES (
+				'name1 name2'
+				,'54652441231321'
+				,'2243434'
+				,'a12213'
+				,'ddwdqd'
+				,'sasas'
+				,'21-03-2016'
+				,'31-03-2016'
+				,''
+				,'1'
+			);
+			
+SQL=>
+			INSERT INTO `user`
+			(
+				`bro_id`
+				, `u_email`
+				, `u_first_name`
+				, `u_last_name`
+				, `u_password`
+				, `u_status`
+				, `u_last_login_date`
+			) VALUES (
+				'4'
+				,'adsad@mail.com'
+				,'name1'
+				,'name2'
+				,'54652441231321'
+				,'2'
+				, null
+			);
+			
+SQL Error -> ROLLBACK (exception 'Exception' in C:\www\bro\model\model.regform.php:91
+Stack trace:
+#0 C:\www\bro\controller\cont.regform.php(86): ModelRegForm->RegisterUser('name1', 'name2', '54652441231321', '2243434', 'a12213', 'ddwdqd', 'adsad@mail.com', 'sasas', '21-03-2016', '31-03-2016', NULL)
+#1 C:\www\bro\engine\view.php(13): regform->__construct()
+#2 C:\www\bro\engine\controller.php(19): view->__construct('regform')
+#3 C:\www\bro\apps.bootstrap.php(30): controller->__construct('regform', 'controller/cont...', 'model/model.reg...')
+#4 C:\www\bro\index.php(7): goBroApp->__construct()
+#5 {main})
+
+++++++++++++++++End Log :2016/03/06 13:55:24+++++++++++++++++
+
